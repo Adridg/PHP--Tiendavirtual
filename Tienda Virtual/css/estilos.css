@@ -1,0 +1,89 @@
+﻿body {
+	text-align:center;
+}
+
+#envoltorio {
+	font-family: Verdana, Sans-Serif, Arial; 
+	margin: 0 auto;
+	width: 760px;
+	text-align: left;
+	font-size: 9pt;
+}
+
+#cabecera {
+	width: 100%;
+	height: 109px;
+	background-image: url(../imagenes/images.jpeg);
+	background-repeat: no-repeat;
+	text-align: right;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+
+}
+
+#cabecera #titulo {
+	color: blue;
+	font-size: 10pt;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#menu {
+	width: 23%;
+	float: left;
+	margin-top: 20px;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu li {
+	list-style-type: none;
+}
+
+#menu li a {
+	display: block;
+	background-color: #2C6877;
+	padding: 10px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	border-bottom: solid 1px black;
+	border-right: solid 1px black;
+}
+
+
+#menu li a:hover{
+	background-color: #003D4C;
+}
+
+#contenido {
+	width: 74%;
+	margin-left: 26%;
+	margin-top: 20px;
+	font-size: 10pt;
+	color: #454545;
+}
+
+#contenido h1 {
+	text-align: right;
+	color: #003D4C;
+	font-size: 12pt;
+}
+
+#pie {
+	width: 100%;
+	height: 20px;
+	font-size: 11px;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #003D4C;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
